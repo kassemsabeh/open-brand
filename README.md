@@ -1,6 +1,6 @@
 # Open-Brand: Open Brand Value Extraction from Product Descriptions
 
-This dataset contains over 250k product brand-value annotations with more than 50k unique values across eight main categories of Amazon product profiles.
+The dataset contains over 250k product brand-value annotations with more than 50k unique values across eight main categories of Amazon product profiles.
 
 The dataset is in [JSON Lines](https://jsonlines.org/) format, with the following schema:
 
@@ -10,10 +10,23 @@ The dataset is in [JSON Lines](https://jsonlines.org/) format, with the followin
    "category": <category name>,
     "description": <product description text>,
     "brand": <brand value inside description text>,
-    "tag": [list of tagged product description]
+    "tag": [list of tagged product descriptions for NER]
 }
 ```
+The 'asin' product id is the same as in the `All_Amazon_Meta.json` file in the [Amazon Review Data (2018)](https://nijianmo.github.io/amazon/index.html). To obtain the full version of the dataset see [below](#obtaining-the-dataset).
 
+The json object contains a tagged product with the relevant Brand. An example is shown as follows:
+
+```
+{
+   "asin": B07ZNDB9RG,
+   "category": Toys and Games,
+   "description": Wooden Stacking Board Games 54 Pieces
+   for Kids Adult and Families, Gentle Monster Wooden Blocks Toys for Toddlers, Colored Building Blocks - 6 Colors 2 Dice
+   "brand": Gentle Monster,
+   "tag": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Brand", "I-Brand", "O", "O", "O", "O", "O",...]
+}
+```
 
 ## Data Description
 The following table shows the statistics of all of our dataset:
