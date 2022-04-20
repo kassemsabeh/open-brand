@@ -19,11 +19,11 @@ The json object contains a tagged product with the relevant Brand. An example is
 
 ```
 {
-   "asin": B07ZNDB9RG,
-   "category": Toys and Games,
-   "description": Wooden Stacking Board Games 54 Pieces
-   for Kids Adult and Families, Gentle Monster Wooden Blocks Toys for Toddlers, Colored Building Blocks - 6 Colors 2 Dice
-   "brand": Gentle Monster,
+   "asin": "B07ZNDB9RG",
+   "category": "Toys and Games",
+   "description": "Wooden Stacking Board Games 54 Pieces
+   for Kids Adult and Families, Gentle Monster Wooden Blocks Toys for Toddlers, Colored Building Blocks - 6 Colors 2 Dice"
+   "brand": "Gentle Monster"
    "tag": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Brand", "I-Brand", "O", "O", "O", "O", "O",...]
 }
 ```
