@@ -65,7 +65,7 @@ The above shell script runs the python script `extract_data.py` which uses  an [
 The output of the full datasets will be stored in the `datasets/` folder as a json file. The produced datasets are `az_base_dataset.jsonl` and `az_new_cat_dataset.jsonl` respectively. 
 
 ## Reading the Data in DataFrames 
-A simple script to read any of the produced [JSON Lines](https://jsonlines.org/) data in `datasets/` directory as pandas data frame:
+A simple script to read any of the produced [JSON Lines](https://jsonlines.org/) data in `datasets/` directory as [pandas](https://pandas.pydata.org/) dataframe:
 
 ```
 import json
