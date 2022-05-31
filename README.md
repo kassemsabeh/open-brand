@@ -1,6 +1,6 @@
 # Open-Brand: Open Brand Value Extraction from Product Descriptions
 
-The dataset contains over 250k product brand-value annotations with more than 50k unique values across eight main categories of Amazon product profiles.
+The dataset contains over 250k product brand-value annotations with more than 50k unique values across eight main categories of Amazon product profiles. For more details, refer to our [ACL-ECNLP 2022 paper](https://aclanthology.org/2022.ecnlp-1.19/).
 
 The dataset is in [JSON Lines](https://jsonlines.org/) format, with the following schema:
 
