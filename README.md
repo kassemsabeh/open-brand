@@ -83,3 +83,23 @@ def getDF(path):
 df = getDF('datasets/az_base_dataset.jsonl')
 
 ```
+------
+
+If you found this work useful or used the datasets, please cite it as follows:
+
+```
+@inproceedings{sabeh-etal-2022-openbrand,
+    title = "{O}pen{B}rand: Open Brand Value Extraction from Product Descriptions",
+    author = "Sabeh, Kassem  and
+      Kacimi, Mouna  and
+      Gamper, Johann",
+    booktitle = "Proceedings of the Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.ecnlp-1.19",
+    doi = "10.18653/v1/2022.ecnlp-1.19",
+    pages = "161--170",
+}
+```
